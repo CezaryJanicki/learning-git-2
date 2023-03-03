@@ -1,0 +1,108 @@
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/nauka-gita (master)
+$ cd ..
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla
+$ mkdir learning-git-2
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla
+$ cd learning-git-2
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2
+$ git init
+Initialized empty Git repository in C:/Users/cjanicki/Development/Kodilla/learning-git-2/.git/
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
+$ git config user.name
+CezaryJanickiMMS
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
+$ git config user.name "CezaryJanicki"
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
+$ git config user.name
+CezaryJanicki
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        css/
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
+$ git add .
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
+$ git commit -m "Init project"
+[master (root-commit) 622e924] Init project
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 css/style.css
+ create mode 100644 index.html
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
+$ git add .
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
+$ git commit -m "Add boilerplate"
+[master e6c43c3] Add boilerplate
+ 1 file changed, 12 insertions(+)
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   css/style.css
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
+$ git add .
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
+$ git commit -m "Add text and css"
+[master 9391170] Add text and css
+ 2 files changed, 48 insertions(+)
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
+$ ^C
+
+cjanicki@
