@@ -104,5 +104,3 @@ nothing to commit, working tree clean
 
 cjanicki@20223119-ALG MINGW64 ~/development/kodilla/learning-git-2 (master)
 $ ^C
-
-cjanicki@
